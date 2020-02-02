@@ -1,0 +1,94 @@
+body {
+    background: aliceblue;
+}
+
+.page {
+    width: 100%;
+    height: 500px;
+    background: aliceblue;
+}
+
+.page .main {
+    width: 440px;
+    background: white;
+    border: 1px solid darkgray;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+.page .main .top {
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+    margin: 5px auto;
+    border-bottom: 1px solid darkgray;
+}
+
+.page .main .top h2 {
+    height: 40px;
+    border-bottom: 3px solid blue;
+    box-sizing: border-box;
+    float: left;
+}
+
+.page .main .top a {
+    display: block;
+    height: 40px;
+    float: right;
+    color: blue;
+}
+
+.page .main form {
+    width: 400px;
+    margin: auto;
+}
+
+.page .main form .inp {
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+    margin: 15px auto;
+}
+
+.page .main form .inp input {
+    width: 400px;
+    height: 40px;
+    border: 1px solid darkgray;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-indent: 1em;
+    font-size: 16px;
+}
+
+.page .main form .addition {
+    width: 400px;
+    height: 30px;
+    font-size: 14px;
+}
+
+.page .main form .addition input[type=checkbox] {
+    width: 15px;
+    height: 15px;
+    float: left;
+    color: white;
+    vertical-align: -300px;
+}
+
+.page .main form div a {
+    float: right;
+    color: blue;
+    font-size: 15px;
+}
+
+
+/*当内容较短时,让footer固定在底部,不会跟着登录框后面 横在页面中间*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.error {
+    font-size: 90%;
+    color: crimson;
+}
